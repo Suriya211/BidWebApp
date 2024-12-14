@@ -1,0 +1,130 @@
+/* General Background */
+.container-fluid {
+  background: linear-gradient(135deg, #6A11CB, #8C0B8E, #7B0EAC); /* Gradient background */
+}
+
+/* Fixed Title */
+.fixed-title {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 15px 0;
+  background: #550D99; /* Title background */
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Form Column (Sign Up/Login) */
+.form-column {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 600px;
+  max-width: 600px; /* Make the form wider */
+  margin: auto;
+}
+
+.text-violet {
+  color: #550D99;
+}
+
+/* Button Styling */
+.btn-outline-light {
+  border: 2px solid #550D99;
+  color: #550D99;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background: #550D99;
+  color: white;
+}
+
+/* Styling for Role Selection buttons */
+.row .col-12 {
+  margin-bottom: 10px;
+}
+
+/* Make the first two buttons (Sign Up and Login) 100px wide */
+.w-100 {
+  width: 100px;
+}
+
+/* Signup form button to span the full width */
+.w-100 {
+  width: 100px;
+}
+
+/* Styling for Greeting text */
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+/* General form styling */
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form .form-label {
+  font-weight: bold;
+  color: #5e4b8b;
+}
+
+.signup-form .form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+/* Form control focus */
+.signup-form .form-control:focus {
+  border-color: #5e4b8b;
+  box-shadow: 0 0 5px rgba(94, 75, 139, 0.5);
+}
+
+/* Error messages styling */
+.text-danger {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Attractive Sign Up Button */
+.signup-btn {
+  background-color: #5e4b8b;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:disabled {
+  background-color: #ccc;
+}
+
+.signup-btn:not(:disabled):hover {
+  background-color: #4b3a74;
+  cursor: pointer;
+}
+
+/* For the page's center alignment */
+.signup-form h3 {
+  color: #5e4b8b;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
