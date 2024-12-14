@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { RegistrationPageComponent } from './registration-page/registration-page.component';
+import { BootstrapOptions } from '@angular/core';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [RouterOutlet,RegistrationPageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
